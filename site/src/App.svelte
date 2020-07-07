@@ -143,3 +143,10 @@
 
 	<Footer />
 </Theme>
+
+<style>
+	 @font-face {
+        font-family: 'Dillan';
+        src: url('/Dillan.woff') format('woff');
+    }
+</style>

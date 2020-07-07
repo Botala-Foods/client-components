@@ -55,10 +55,8 @@
         --lineThin: solid calc(.5 * var(--s-1)) var(--lineColor);
         --line: solid calc(.75 * var(--s-1)) var(--lineColor);
 
-        /* END USER DEFINED */
-
         /* Type */
-        --headingFont: "Space Mono", monospace;
+        --headingFont: "Dillan", sans-serif;
         --lineHeight: 1.65;
         --bodyFont: "Work Sans", sans-serif;
         --baseFontSize: 100%;
