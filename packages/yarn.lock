@@ -121,6 +121,11 @@ sourcemap-codec@^1.4.8:
   resolved "https://registry.yarnpkg.com/sourcemap-codec/-/sourcemap-codec-1.4.8.tgz#ea804bd94857402e6992d05a38ef1ae35a9ab4c4"
   integrity sha512-9NykojV5Uih4lgo5So5dtw+f0JgJX30KCNI8gwhz2J9A15wD0Ml6tjHKwf6fTSa6fAdVBdZeNOs9eJ71qCk8vA==
 
+svelte-normalize-css@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/svelte-normalize-css/-/svelte-normalize-css-1.0.0.tgz#5e9fceb957ccfc2c372188804b641f8274dc837a"
+  integrity sha512-xyrslBrWJ0sooqNta6aZZ6CPXmqpO4vU86lyrUSZ9D0+Elrro8erPsfivV+9/UNoaqmTkOvAjSO2N+kSUAfZLA==
+
 svelte@^3.0.0:
   version "3.23.2"
   resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.23.2.tgz#f3e500384261a2e77b29681ee744c3c790fbcdc3"

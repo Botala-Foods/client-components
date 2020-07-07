@@ -20,5 +20,8 @@
   "files": [
     "src",
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "svelte-normalize-css": "^1.0.0"
+  }
 }
