@@ -39,10 +39,9 @@
 		<H3>Heading Three</H3>
 		<H4>Heading Four</H4>
 		<H5>Heading Five</H5>
-		<!-- <H6>Hello World</H6> -->
 
 		<hr />
-		<div class="grid">
+		<div>
 			<p>
 			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 			eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -53,9 +52,9 @@
 			culpa qui officia deserunt mollit anim id est laborum.
 			</p>
 			<ul>
-			<li>Hi</li>
-			<li>Hello</li>
-			<li>It's me</li>
+				<li>Hi</li>
+				<li>Hello</li>
+				<li>It's me</li>
 			</ul>
 		</div>
 
@@ -69,7 +68,7 @@
 			<Button>Accept</Button>
 		</Card>
 
-		<div class="grid grid--split">
+		<div>
 			<aside>
 			<p>
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -85,7 +84,7 @@
 			</p>
 		</div>
 
-		<div class="split">
+		<div>
 			<aside>
 			<p>
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -104,7 +103,7 @@
 		<hr />
 
 		<form>
-			<div class="grid cols-3">
+			<div>
 				<div>
 					<label for="text">Text</label>
 					<Input />
