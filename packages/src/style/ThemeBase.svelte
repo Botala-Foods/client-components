@@ -80,6 +80,8 @@
         
         /* Height and width */
         --headerHeight: var(--s-12);
+        --buttonHeight: inherit;
+        --buttonWidth: inherit;
         
         /* Borders */
         --borderRadius: var(--s-1);

@@ -15,6 +15,8 @@
 <style>
     button {
         appearance: none;
+        width: var(--buttonWidth);
+        height: var(--buttonHeight);
         color: var(--buttonTextColor);
         background-color: var(--buttonColor);
         border: var(--lineThin);
