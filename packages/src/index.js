@@ -12,4 +12,5 @@ export { default as H2 } from './typography/headings/H2.svelte';
 export { default as H3 } from './typography/headings/H3.svelte';
 export { default as H4 } from './typography/headings/H4.svelte';
 export { default as H5 } from './typography/headings/H5.svelte';
+export { default as Flex } from './utils/Flex.svelte';
 

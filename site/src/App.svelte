@@ -14,6 +14,7 @@
 		H3,
 		H4,
 		H5,
+		Flex,
 		Header,
 		Footer,
 	} from '../../packages/src'
@@ -104,14 +105,16 @@
 
 		<form>
 			<div>
-				<div>
-					<label for="text">Text</label>
-					<Input />
-				</div>
-				<div>
-					<label for="number">Number</label>
-					<Input />
-				</div>
+				<Flex>
+					<div>
+						<label for="text">Text</label>
+						<Input />
+					</div>
+					<div>
+						<label for="number">Number</label>
+						<Input />
+					</div>
+				</Flex>
 
 				<div>
 					<label for="email">Email</label>
