@@ -59,8 +59,8 @@
 			</ul>
 		</div>
 
-		<Card>
-			<h3 slot="title">Card Heading</h3>
+		<Card on:click={() => window.alert('Clicked card')}>
+			<h3 slot="title-center">Card Heading</h3>
 
 			<p>
 			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

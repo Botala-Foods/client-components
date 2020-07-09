@@ -1,6 +1,17 @@
-<div class="card">
-    <div class="title">
-        <slot name="title"></slot>
+<script>
+    import { get_current_component } from 'svelte/internal'
+    import { forwardEventsBuilder } from '@smui/common/forwardEvents.js'
+    import Flex from './utils/Flex.svelte'
+
+    const forwardEvents = forwardEventsBuilder(get_current_component())
+</script>
+
+<div class='card' use:forwardEvents>
+    <div class='title'>
+        <slot name='title' />
+        <Flex>
+            <slot name='title-center' />
+        </Flex>
     </div>
     <slot></slot>
 </div>
