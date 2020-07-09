@@ -13,8 +13,8 @@
         --darkBlue: #172C66;
         --blue: #5E84BC;
         --neonBlue: #8BD3DD;
-        --grey: #BCB8C8;
-        --lightGrey: #D9D7E0;
+        --gray: #BCB8C8;
+        --lightGray: #D9D7E0;
 
         /* Define Colors intentions */
         --primary: var(--blue);

@@ -21,7 +21,7 @@
     }
 
     :global(::placeholder) {
-        color: var(--grey);
+        color: var(--gray);
     }
 
     :global(h1),
@@ -35,13 +35,10 @@
         line-height: var(--lineHeight);
     }
 
-    /* 
-    TODO 
-    label {
+    :global(label) {
         display: block;
         font-size: var(--smallText);
     }
-    */
 
     :global(p) {
         margin-bottom: 1.15rem;
