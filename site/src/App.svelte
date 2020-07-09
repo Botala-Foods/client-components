@@ -140,6 +140,7 @@
 			<Button>Button &xrarr;</Button>
 			<br />
 			<Button small>Submit</Button>
+			<Button ghost small>Submit</Button>
 		</form>
 	</SiteLayout>
 

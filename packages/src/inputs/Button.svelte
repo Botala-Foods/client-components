@@ -2,12 +2,14 @@
     export let disabled
     export let warn
     export let small
+    export let ghost
 </script>
 
 <button 
     {disabled}
     class:small
     class:warn
+    class:ghost
 >
     <slot></slot>
 </button>
@@ -38,8 +40,13 @@
         --buttonColor: var(--danger);
     }
 
+    button.ghost {
+        --buttonColor: var(--background);
+        --buttonTextColor: var(--lineColor);
+    }
+
     button.small {
-        --buttonPadding: var(--s-1) var(--s-2);
+        --buttonPadding: var(--buttonPaddingSmall);
         font-size: var(--smallText);
     }
 </style>

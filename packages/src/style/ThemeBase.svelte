@@ -75,6 +75,7 @@
         --containerPadding: 2.5%;
         --cardPadding: var(--s-8);
         --buttonPadding: var(--s-2) var(--s-10);
+        --buttonPaddingSmall: var(--s-2) var(--s-5);
         --cardFirstChildMarginTop: 0; /* First item will never have margin top */
         --cardLastChildMarginBottom: 0; /* Last item will never have margin bottom */
         
