@@ -63,6 +63,13 @@
     estree-walker "^1.0.1"
     picomatch "^2.2.2"
 
+"@smui/common@^1.0.0-beta.21":
+  version "1.0.0-beta.21"
+  resolved "https://registry.yarnpkg.com/@smui/common/-/common-1.0.0-beta.21.tgz#f81f659542a189dbf2e04edc78fcfed408db0a58"
+  integrity sha512-t063AKMVeKLl91C7HyMqWerrEMal1rIAHis6kH/HRWuqudLfQ2vrGCKq3SMLEL6t4OqgiXg122g0FDBk5t4M1A==
+  dependencies:
+    svelte "^3.0"
+
 "@types/estree@*":
   version "0.0.45"
   resolved "https://registry.yarnpkg.com/@types/estree/-/estree-0.0.45.tgz#e9387572998e5ecdac221950dab3e8c3b16af884"
@@ -539,6 +546,11 @@ supports-color@^6.1.0:
   integrity sha512-qe1jfm1Mg7Nq/NSh6XE24gPXROEVsWHxC1LIx//XNlD9iw7YZQGjZNjYN7xGaEG6iKdA8EtNFW6R0gjnVXp+wQ==
   dependencies:
     has-flag "^3.0.0"
+
+svelte@^3.0:
+  version "3.24.0"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.24.0.tgz#6565a42c9705796fa66c6abb4fedc09f4323a4a8"
+  integrity sha512-VFXom6EP2DK83kxy4ZlBbaZklSbZIrpNH3oNXlPYHJUuW4q1OuAr3ZoYbfIVTVYPDgrI7Yq0gQcOhDlAtO4qfw==
 
 svelte@^3.0.0:
   version "3.23.2"

@@ -6,8 +6,7 @@
 		TextArea,
 		Button,
 		Input,
-		// Text,
-		// SmallText,
+		Icon,
 		SiteLayout,
 		H1,
 		H2,
@@ -142,6 +141,8 @@
 			<Button small>Submit</Button>
 			<Button ghost small>Submit</Button>
 		</form>
+
+		<Icon arrow-left />
 	</SiteLayout>
 
 	<Footer />
