@@ -1,5 +1,10 @@
 <!-- Extended from https://github.com/himynameisdave/svelte-flex -->
 <script>
+    import { get_current_component } from 'svelte/internal'
+    import { forwardEventsBuilder } from '@smui/common/forwardEvents.js'
+
+    const forwardEvents = forwardEventsBuilder(get_current_component())
+
     export let column = false
     export let align = 'center'
     export let justify = 'center'
@@ -17,7 +22,13 @@
     ].join(' ')
 </script>
 
-<div {...$$restProps} class={className} class:stretchX class:stretchY>
+<div
+    use:forwardEvents
+    {...$$restProps} 
+    class={className} 
+    class:stretchX 
+    class:stretchY
+>
     <slot></slot>
 </div>
 
