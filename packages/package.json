@@ -3,7 +3,7 @@
   "description": "Botala's component library, pine. Written in vanilla Svelte",
   "svelte": "src/index.js",
   "module": "dist/index.mjs",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "main": "dist/index.js",
   "repository": {
     "url": "https://github.com/BotalaFoods/client-components.git"
@@ -27,12 +27,11 @@
     "dist"
   ],
   "peerDependencies": {
-    "@smui/common": "^1.0.0-beta.21",
-    "feather-icons": "^4.28.0"
+    "@smui/common": "^1.0.0-beta.21"
   },
   "dependencies": {
     "@smui/common": "^1.0.0-beta.21",
-    "feather-icons": "^4.28.0",
+    "svelte-feather-icons": "^3.2.2",
     "svelte-normalize-css": "^1.0.0"
   }
 }

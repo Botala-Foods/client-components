@@ -1,32 +1,23 @@
-<script context="module">
-    let counter = 0
-</script>
-
 <script>
-    import { onMount } from "svelte"
-    import feather from 'feather-icons'
+    import { ArrowLeftIcon } from 'svelte-feather-icons'
+    import { onMount } from 'svelte'
 
-    export let f = true // Feather icon
+    export let size = "24"
 
     // TODO Get from context
-    const icons = []
-    let icon 
-    let container
-    let _class 
+    const icons = {
+        back: ArrowLeftIcon
+    }
 
-    onMount(() => {
-        icon = getIcon()
-    })
+    let icon
+
+    onMount(() => icon = getIcon())
 
     const getIcon = () => {
         const prop = Object.keys($$restProps)[0]
 
         try {
-            if (f) {
-                _class = `icon${counter++}`
-                return feather.icons[prop].toSvg({ class: _class })
-            } 
-            
+            if (icons[prop]) return icons[prop]
             throw Error('User icons not specified')
         } catch (error) {
             console.error(`Could not find icon [${prop}]: `, error)
@@ -34,4 +25,4 @@
     }
 </script>
 
-{@html icon}
+<svelte:component this={icon} {size} />

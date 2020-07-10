@@ -142,7 +142,7 @@
 			<Button ghost small>Submit</Button>
 		</form>
 
-		<Icon arrow-left />
+		<Icon back />
 	</SiteLayout>
 
 	<Footer />
