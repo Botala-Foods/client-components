@@ -142,7 +142,10 @@
 			<Button ghost small>Submit</Button>
 		</form>
 
+		<Icon back small />
 		<Icon back />
+		<Icon back medium />
+		<Icon back large />
 	</SiteLayout>
 
 	<Footer />

@@ -59,7 +59,7 @@
         --headingFont: "Dillan", sans-serif;
         --lineHeight: 1.65;
         --bodyFont: "Work Sans", sans-serif;
-        --baseFontSize: 100%;
+        --baseFontSize: 16px;
         --h1: 3.157rem;
         --h2: 2.369rem;
         --h3: 1.777rem;
