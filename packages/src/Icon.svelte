@@ -19,7 +19,6 @@
     })
 
     const getSize = () => {
-        debugger
         let baseFontSize = getComputedStyle(document.documentElement).getPropertyValue('--baseFontSize')
         baseFontSize = +(baseFontSize.substring(0, baseFontSize.indexOf('px')))
 
