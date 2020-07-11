@@ -38,11 +38,11 @@
         --s-4: 1rem;    /* 16px */
         --s-5: 1.25rem; /* 20px */
         --s-6: 1.5rem;  /* 24px */
-        --s-8: 2rem;    /* px */
-        --s-10: 2.5rem; /* px */
-        --s-12: 3rem;   /* px */
-        --s-16: 4rem;   /* px */
-        --s-20: 5rem;   /* px */
+        --s-8: 2rem;    /* 32px */
+        --s-10: 2.5rem; /* 40px */
+        --s-12: 3rem;   /* 48px */
+        --s-16: 4rem;   /* 64px */
+        --s-20: 5rem;   /* 80px */
 
         /* Elevation */
         --level-1: 3px 3px 0px rgba(0, 24, 88, 0.16);
