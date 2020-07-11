@@ -1,11 +1,17 @@
 <script>
+    import { get_current_component } from 'svelte/internal'
+    import { forwardEventsBuilder } from '@smui/common/forwardEvents.js'
+
     export let disabled
     export let warn
     export let small
     export let ghost
+
+    const forwardEvents = forwardEventsBuilder(get_current_component())
 </script>
 
 <button 
+    use:forwardEvents
     {disabled}
     class:small
     class:warn

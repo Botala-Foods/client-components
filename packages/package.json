@@ -3,7 +3,7 @@
   "description": "Botala's component library, pine. Written in vanilla Svelte",
   "svelte": "src/index.js",
   "module": "dist/index.mjs",
-  "version": "0.1.11",
+  "version": "0.1.12",
   "main": "dist/index.js",
   "repository": {
     "url": "https://github.com/BotalaFoods/client-components.git"
