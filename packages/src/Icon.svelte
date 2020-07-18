@@ -1,5 +1,5 @@
 <script>
-    import { ArrowLeftIcon } from 'svelte-feather-icons'
+    import { ArrowLeftIcon, PlusCircleIcon, BellIcon, SettingsIcon } from 'svelte-feather-icons'
     import { onMount } from 'svelte'
 
     export let small
@@ -8,7 +8,10 @@
 
     // TODO Get from context
     const icons = {
-        back: ArrowLeftIcon
+        back: ArrowLeftIcon,
+        settings: SettingsIcon,
+        notifications: BellIcon,
+        plusCircle: PlusCircleIcon,
     }
 
     let icon, size 
