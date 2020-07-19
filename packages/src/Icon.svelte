@@ -1,10 +1,14 @@
 <script>
     import { ArrowLeftIcon, PlusCircleIcon, BellIcon, SettingsIcon } from 'svelte-feather-icons'
     import { onMount } from 'svelte'
+    import { get_current_component } from 'svelte/internal'
+    import { forwardEventsBuilder } from '@smui/common/forwardEvents.js'
 
     export let small
     export let medium
     export let large
+
+    const forwardEvents = forwardEventsBuilder(get_current_component())
 
     // TODO Get from context
     const icons = {
@@ -44,5 +48,10 @@
 </script>
 
 {#if icon}
-    <svelte:component this={icon} {size} />
+    <div 
+        class="wrapper"
+        use:forwardEvents
+    >
+        <svelte:component this={icon} {size} />
+    </div>
 {/if}
