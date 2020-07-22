@@ -1,5 +1,5 @@
 <script>
-    import { ArrowLeftIcon, PlusCircleIcon, BellIcon, SettingsIcon } from 'svelte-feather-icons'
+    import { ArrowLeftIcon, PlusCircleIcon, SearchIcon, RefreshCcwIcon, BellIcon, SettingsIcon } from 'svelte-feather-icons'
     import { onMount } from 'svelte'
     import { get_current_component } from 'svelte/internal'
     import { forwardEventsBuilder } from '@smui/common/forwardEvents.js'
@@ -15,6 +15,8 @@
         back: ArrowLeftIcon,
         settings: SettingsIcon,
         notifications: BellIcon,
+        refresh: RefreshCcwIcon,
+        search: SearchIcon,
         plusCircle: PlusCircleIcon,
     }
 
@@ -55,3 +57,11 @@
         <svelte:component this={icon} {size} />
     </div>
 {/if}
+
+<style>
+    .wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+</style>

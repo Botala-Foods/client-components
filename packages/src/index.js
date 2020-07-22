@@ -5,6 +5,7 @@ export { default as Input } from './inputs/Input.svelte';
 export { default as Select } from './inputs/Select.svelte';
 export { default as TextArea } from './inputs/TextArea.svelte';
 export { default as SiteLayout } from './layouts/SiteLayout.svelte';
+export { default as S } from './S.svelte';
 export { default as Footer } from './site/Footer.svelte';
 export { default as Header } from './site/Header.svelte';
 export { default as Theme } from './style/Theme.svelte';
