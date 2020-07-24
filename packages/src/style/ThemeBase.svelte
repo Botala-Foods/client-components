@@ -60,12 +60,12 @@
         --lineHeight: 1.65;
         --bodyFont: "Work Sans", sans-serif;
         --baseFontSize: 16px;
-        --h1: 3.157rem;
-        --h2: 2.369rem;
-        --h3: 1.777rem;
-        --h4: 1.333rem;
-        --h5: 1rem;
-        --smallText: 0.75rem;
+        --h1: 3.052rem;
+        --h2: 2.441rem;
+        --h3: 1.953rem;
+        --h4: 1.563rem;
+        --h5: 1.25rem;
+        --smallText: 0.8rem;
 
         /* Padding and margin */
         --layoutPadding: var(--containerPadding);
