@@ -94,5 +94,6 @@
         --buttonShadow: var(--level-1);
         --buttonShadowHover: var(--level-2);
         --cardShadow: var(--level-2);
+        --ballShadow:  1px 2px 0px rgba(0, 0, 0, 0.15), inset -3px -3px 0px rgba(0, 24, 88, 0.1);
     }
 </style>

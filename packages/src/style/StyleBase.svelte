@@ -50,6 +50,18 @@
         text-decoration: none;
         border-bottom: solid 2px var(--primary);
     }
+
+    :global(.bubble) {
+        box-shadow: var(--ballShadow);
+        border: var(--line);
+        background: var(--background);
+        border-radius: 999px;
+        height: var(--s-10);
+        width: var(--s-10);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 </style>
 
 <slot></slot>
