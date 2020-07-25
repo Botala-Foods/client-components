@@ -15,6 +15,7 @@
         --neonBlue: #8BD3DD;
         --gray: #BCB8C8;
         --lightGray: #D9D7E0;
+        --white: #fffdf8;
 
         /* Define Colors intentions */
         --primary: var(--blue);
@@ -30,6 +31,7 @@
         --headerLinkColor: var(--textAccentColor);
         --footerTextColor: var(--textAccentColor);
         --footerBackground: var(--brown);
+        --inputBackground: var(--white);
 
         /* Spacing scale */
         --s-1: .25rem;  /* 4px */
@@ -76,6 +78,7 @@
         --cardPadding: var(--s-8);
         --buttonPadding: var(--s-2) var(--s-10);
         --buttonPaddingSmall: var(--s-2) var(--s-5);
+        --inputPadding: var(--s-2);
         --cardFirstChildMarginTop: 0; /* First item will never have margin top */
         --cardLastChildMarginBottom: 0; /* Last item will never have margin bottom */
         
@@ -87,6 +90,8 @@
         /* Borders */
         --borderRadius: var(--s-1);
         --buttonBorderRadius: var(--borderRadius);
+        --inputBorder: var(--lineThin);
+        --inputBorderRadius: var(--borderRadius);
 
         /* Shadows */
         --headerShadow: var(--level-2);
